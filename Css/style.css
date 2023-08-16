@@ -1,0 +1,63 @@
+/*google Fonts*/
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+  }
+
+  body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0e3eb;
+  }
+
+  .container{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    background: #fff;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.05) ;
+  }
+
+  .display{
+    height: 80px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 2rem; 
+    color: #000;
+    pointer-events: none;
+  }
+
+  .btns{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr) ;
+  }
+
+  .btns button{
+    padding: 12px 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #eee;
+  }
+
+  .btns button:active{
+    transform: scale(0.99);
+    /*ویژگی scale به شما امکان می دهد اندازه عناصر را تغییر دهید.*/
+  }
+
+  .operator{
+    color: #2f9fff;
+  }
